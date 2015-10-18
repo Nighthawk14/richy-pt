@@ -1,0 +1,53 @@
+input, select, textarea {
+    line-height: 20px;
+}
+
+/* redux framework */
+.redux-container-slides .redux-slides-add { margin-right: 0; }
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections a, .admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a {
+    background-color: #000;
+}
+
+#opt_icons_footer-ul textarea.large-text {
+    display: none;
+}
+
+#ulysses_option-opt_icons_footer .screenshot a {
+    background-color: #333;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: normal;
+    margin-bottom: 10px;
+    padding: 8px 12px 3px;
+}
+
+/*
+#opt_about_content-ul > li:nth-child(3),
+#opt_statistics-ul > li:nth-child(3) {
+    display: none;
+}
+*/
+
+#opt_statistics-ul > li:nth-child(3) {
+    display: none;
+}
+
+.redux-info-field.redux-normal {
+    background-color: #333;
+    border-color: #cccccc;
+    color: #fff;
+	border-radius: 0;
+	border:3px solid #1E8CBE;
+    height: auto;
+    line-height: normal;
+    margin: 5px 0;
+    min-height: 0;
+    padding: 0 12px;
+    position: relative;
+}
+
+.fa {
+    padding-left: 5px;
+    padding-right: 5px;
+}

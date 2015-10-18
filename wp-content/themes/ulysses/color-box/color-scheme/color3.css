@@ -1,0 +1,94 @@
+.d-text-c-a.active,
+.d-text-c-h:hover,
+.twitter li a,
+.widget.widget-blog-posts ul li:before,
+.menu li.active > a,
+.sidebar .widget .twitter_widget ul li a,
+ul li.active > .d-text-c-h,
+.works .project:hover .project-cover i,
+.testimonials-section .testimonial .testimonial-content p span,
+.d-text-c,
+.dropdown-toggle:hover,
+.woocommerce-page ul.product_list_widget li a:hover,
+.services-mark-1 .one-service h4 a:hover,
+.widget_nav_menu .sub-menu li a:hover,
+.sidebar li a:hover, .widget_tag_cloud a:hover,
+.shipping_calculator_block h4 a:hover,
+.woocommerce-remove-coupon,
+.showcoupon,
+.woocommerce form .form-row .required,
+.woocommerce-page form .form-row .required,
+.stars span a,
+.woocommerce-review-link,
+.price .amount,
+.woocommerce .showlogin,
+.reset_variations,
+.required,
+.blog-entry .entry-hover img,
+.blog-entry .entry-hover i,
+.pagination li .page-numbers.current,
+.paging-navigation .pagination li .page-numbers:hover,
+.single-page .blog-entry .entry-hover h2 a:hover{
+	color: #e0218a !important;
+}
+.works .project:hover .project-details,
+.services-mark-2 .one-service:hover .button-1,
+.services-mark-2 .one-service:hover i,
+.d-bg-c-a.active,
+.d-bg-c-h:hover,
+.d-bg-c-h.active,
+.mini-slider .slider-dots li.active,
+.d-bg-c,
+.woocommerce button.button:hover,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+.widget_product_search #searchform input[type='submit']:hover,
+.woocommerce a.button:hover,
+.comment-form input[type='submit']:hover,
+.woocommerce-page input.button:hover,
+.woocommerce .woocommerce-message:before,
+.woocommerce-page .woocommerce-message:before,
+.woocommerce .woocommerce-info:before,
+.woocommerce-page .woocommerce-info:before{
+	background: #e0218a !important;
+}
+.widget .nav-tabs li.active a {
+	border-top: 4px solid #e0218a !important;
+}
+.team-section .team-member:hover .team-member-details .social,
+.d-border-c-a.active,
+.d-border-c.active,
+.d-border-c-h:hover,
+.d-border-c-f:focus,
+.d-border-c-h.active,
+.sidebar .widget .twitter_widget ul li a:hover,
+.d-border-c,
+.woocommerce button.button,
+.woocommerce button.button:hover,
+.woocommerce a.button,
+.woocommerce a.button:hover,
+.comment-form input[type='submit'],
+.comment-form input[type='submit']:hover,
+.woocommerce-page input.button,
+.woocommerce-page input.button:hover,
+.pagination li .page-numbers.current,
+.paging-navigation .pagination li .page-numbers:hover{
+	border-color: #e0218a !important;
+}
+.tab-widget .nav-tabs li.active a,
+.counting li.active span,
+.slider-dots li.active span,
+.widget .nav-tabs li.active a {
+	border-top: 4px solid #e0218a !important;
+}
+.services-mark-1 .one-service:hover i,
+.services-mark-2 .one-service:hover i {
+	background: #e0218a !important;
+	box-shadow: 0 0 0 3px #e0218a !important;
+}
+.woocommerce-error,
+.woocommerce-page .woocommerce-message,
+.woocommerce-page .woocommerce-info{
+	border-top: 3px solid #e0218a !important;
+}
