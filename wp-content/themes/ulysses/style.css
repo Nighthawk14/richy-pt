@@ -104,7 +104,7 @@ ul li, ol li {
 }
 
 input, textarea {
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     outline: none !important;
 }
 
@@ -266,6 +266,7 @@ a {
 }
 .logo a img {
     color: #fff;
+    margin-top: 20px;
 }
 .home-page .header .logo a {
     color: #fff;
@@ -297,7 +298,7 @@ a {
 */
 
 .logo {
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     display: inline-block;
     font-style: italic;
     margin: 0;
@@ -313,9 +314,6 @@ a {
     color: #fff;
 }
 
-.is-sticky .logo img {
-    height: 65px;
-}
 .is-sticky.navbar { min-height: 40px; }
 
 .header-transform {
@@ -674,6 +672,10 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 	font-size: 12px;
 	content: "\f01b";
 	color: #808080;
+}
+.testimonial-slider .owl-item {
+    height: 310px;
+    overflow: hidden;
 }
 
 /* =========================== START TIMETABLE SECTION ===================== */
@@ -1052,6 +1054,10 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 .info-section .info-details ul.ul-contact li.ul-contact-4 {
     background: url("images/contact-4.png") no-repeat left top;
 }
+.info-section .info-details ul.ul-contact li.ul-contact-2.single-phone {
+	height: 35px;
+	line-height: 35px;
+} 
 .info-section .info-details ul.ul-contact li span,
 .info-section .info-details ul.ul-calendar li span {
     display: block;
@@ -1105,7 +1111,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 }
 
 .sidebar .widget .mini-shop-item h6 {
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 14px;
     font-weight: 400;
@@ -1556,7 +1562,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     font-weight: 400;
     margin-bottom: 25px;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .slider .slide-text h5 {
@@ -2117,7 +2123,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     color: #808080;
     font-size: 13px;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     line-height: 1.5em;
     text-align: center;
@@ -2397,7 +2403,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     color: #666;
     font-weight: 400;
     font-size: 13px;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     margin: 5px 0 5px 0;
 }
@@ -2603,7 +2609,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 
 .pricing-table .pricing-table-stuff {
     padding: 0;
-    margin: 15px 50px 20px;
+    margin: 15px 20px 20px;
 }
 
 .pricing-table.popular-table .pricing-table-stuff li {
@@ -2633,6 +2639,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 25px;
+    width: 100%;
 }
 
 .pricing-table.popular-table p .button:hover {
@@ -2858,7 +2865,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     font-size: 13px;
     text-align: center;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .our-team-v1 .team-member .team-member-hover .team-names {
@@ -2969,7 +2976,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     z-index: 4;
     margin: -30px 0 40px;
     font-weight: 400;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .statistics-section .statistic h6 {
@@ -3006,7 +3013,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 }
 
 .error-404-section h5 {
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 45px;
     color: #808080;
     font-style: italic;
@@ -3076,7 +3083,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 }
 
 .shop-section .shop-filter h6 {
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -3131,7 +3138,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
 }
 
 .shop-section .shop-items .shop-item .item-details h6 {
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 15px;
     font-weight: 400;
@@ -3511,7 +3518,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     margin: 0 auto 10px;
     font-weight: 400;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .shop-item-v1 h5 {
@@ -3522,7 +3529,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     margin: 0 auto 10px;
     font-weight: 400;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .shop-item-v1 h6 {
@@ -3908,7 +3915,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     display: block;
     font-size: 40px;
     text-align: center;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     line-height: 1.5em;
     position: absolute;
     left: 0;
@@ -4050,7 +4057,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     color: #fff;
     font-size: 13px;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     line-height: 1.5em;
     text-align: center;
@@ -4182,7 +4189,7 @@ body.boxed .classes-slider .flex-control-nav.flex-control-paging {
     color: #808080;
     font-size: 13px;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     line-height: 1.5em;
     text-align: center;
@@ -4235,7 +4242,7 @@ span.wpcf7-not-valid-tip {
     margin-bottom: 20px;
     background: #fff;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     width: 100%;
     border: 1px solid #ccc;
 }
@@ -4249,7 +4256,7 @@ span.wpcf7-not-valid-tip {
     resize: none;
     background: #fff;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     height: 190px;
     margin-bottom: 20px;
     width: 100%;
@@ -4427,7 +4434,7 @@ span.wpcf7-not-valid-tip {
     color: #fff;
     cursor: pointer;
     text-align: center;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 25px;
     line-height: 1.5em;
     font-style: italic;
@@ -4551,7 +4558,7 @@ span.wpcf7-not-valid-tip {
 /* =========================== START PATH SECTION ===================== */
 .path-section {
     position: relative;
-    background-image: url("images/slide-1.jpg");
+    background-image: url("/wp-content/uploads/2015/09/image1-e1447793247749.jpg");
     background-size: cover;
     margin-bottom: 100px;
 }
@@ -4595,7 +4602,7 @@ span.wpcf7-not-valid-tip {
     font-style: italic;
     text-align: center;
     font-size: 30px;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 /* =========================== END PATH SECTION ===================== */
 
@@ -4604,6 +4611,7 @@ span.wpcf7-not-valid-tip {
     padding-top: 80px;
 	overflow: hidden;
 }
+
 /* =========================== END ABOUT SECTION ===================== */
 
 /* =========================== START HOME-PROJECTS SECTION ===================== */
@@ -4771,7 +4779,7 @@ span.wpcf7-not-valid-tip {
     font-size: 12px;
     text-transform: none;
     font-weight: 300;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
@@ -4781,6 +4789,10 @@ span.wpcf7-not-valid-tip {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
     font-weight: 400;
+}
+
+.trainer-section .one-service {
+	padding-left: 0;
 }
 /* =========================== END TRAINERS SECTION ===================== */
 
@@ -4941,7 +4953,7 @@ span.wpcf7-not-valid-tip {
 
 .blog-entry .entry-content .read-more {
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 13px;
     margin: 0;
 }
@@ -4991,7 +5003,7 @@ span.wpcf7-not-valid-tip {
 
 .blog-entry .entry-hover p {
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
 }
 
@@ -5074,19 +5086,20 @@ span.wpcf7-not-valid-tip {
 /* =========================== START PURCHASE ===================== */
 
 .purchase-section {
-    background: url("images/bg-sale.jpg") no-repeat top center;
+    background: url("/wp-content/uploads/2015/10/RichyPT-1571.jpg") no-repeat top center;
+    background-position-y: 25%; 
     background-size: cover;
     text-align: center;
 }
 
 .purchase-section .bg-cover {
-    padding: 80px 0;
-    background: rgba(0, 0, 0, 0.3);
+    padding: 120px 0;
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.purchase-section:hover .bg-cover {
+/*.purchase-section:hover .bg-cover {
     background: rgba(0, 0, 0, 0.8);
-}
+} */
 
 .purchase-section .site-title {
     margin: 0;
@@ -5142,7 +5155,7 @@ span.wpcf7-not-valid-tip {
     display: block;
     text-align: center;
     position: absolute;
-    left: 0;
+    left: 25px;
     top: 0;
 	max-height: 120px;
 	max-width: 120px;
@@ -5170,7 +5183,7 @@ span.wpcf7-not-valid-tip {
     text-transform: uppercase;
 }
 
-.services-mark-1 .one-service p {
+.services-mark-1 .one-service p, .services-mark-1 .one-service li {
     font-size: 13px;
     margin: 0;
     color: #808080;
@@ -5320,7 +5333,7 @@ span.wpcf7-not-valid-tip {
 .site-title p {
     margin: 0 auto 5px;
     color: #808080;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
     font-style: italic;
     line-height: 1.5em;
@@ -5416,7 +5429,7 @@ footer p.copywrite {
     font-size: 13px;
     color: #fff;
     font-style: italic;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
 }
 
@@ -5498,7 +5511,7 @@ ul li.active>.d-text-c-h,
     text-align: center;
     color: #fff;
     font-size: 12px;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-style: italic;
 }
@@ -5842,7 +5855,7 @@ ul li.active>.d-text-c-h,
     color: #666;
     font-weight: 400;
     font-size: 13px;
-    font-family: 'Open-Sans',sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     margin: 5px 0 5px 0;
 }
@@ -7303,14 +7316,6 @@ ul.products li.product .wc-new-badge {
     border: 0 none;
 }
 
-.woocommerce #content table.cart a.remove:hover,
-.woocommerce table.cart a.remove:hover,
-.woocommerce-page #content table.cart a.remove:hover,
-.woocommerce-page table.cart a.remove:hover {
-    background-color: transparent;
-    color: inherit;
-}
-
 .cart_item {
     position: relative;
 }
@@ -7326,8 +7331,8 @@ ul.products li.product .wc-new-badge {
     height: 30px;
     left: 0;
     top: 0;
-    padding-left: 3px;
-    padding-top: 2px;
+    padding-left: 0;
+    padding-top: 1px;
     margin-top: 0;
     position: relative;
     right: 0;
@@ -7855,11 +7860,6 @@ address, .customer_details dt ,.customer_details dd, .woocommerce .order_details
     width: 200px;
     border: 1px solid #aaa;
     font-family: "Montserrat",sans-serif;
-    background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),color-stop(100%,#f4f4f4));
-    background: -webkit-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: -moz-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: -o-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
     background-clip: padding-box;
     box-shadow: 0 0 3px #fff inset,0 1px 1px rgba(0,0,0,.1);
     color: #444;
@@ -7873,11 +7873,6 @@ address, .customer_details dt ,.customer_details dd, .woocommerce .order_details
 .woocommerce textarea {
     border: 1px solid #aaa;
     font-family: "Montserrat",sans-serif;
-    background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),color-stop(100%,#f4f4f4));
-    background: -webkit-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: -moz-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: -o-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
     background-clip: padding-box;
     box-shadow: 0 0 3px #fff inset,0 1px 1px rgba(0,0,0,.1);
     line-height: 29px;
@@ -7893,11 +7888,6 @@ address, .customer_details dt ,.customer_details dd, .woocommerce .order_details
 .woocommerce input[type="password"] {
     border: 1px solid #aaa;
     font-family: "Montserrat",sans-serif;
-    background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),color-stop(100%,#f4f4f4));
-    background: -webkit-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: -moz-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: -o-linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
-    background: linear-gradient(top,#fff 20%,#f6f6f6 50%,#eee 52%,#f4f4f4 100%);
     background-clip: padding-box;
     box-shadow: 0 0 3px #fff inset,0 1px 1px rgba(0,0,0,.1);
     color: #444;
@@ -8237,4 +8227,37 @@ address, .customer_details dt ,.customer_details dd, .woocommerce .order_details
 
 :root .classes-section .slide-wrapper .slide .slide-text {
 	margin-left: 19.3%;
+}
+
+.bootcamp-slider {
+	height: 300px;
+}
+.bootcamp-slider .flex-control-nav.flex-control-paging {
+	display: none;
+}
+
+.bootcamp-slider .flex-direction-nav {
+	display: none;
+}
+.classes-section .bootcamp-slider .white-box {
+	margin-left:0px;
+}
+
+.added_to_cart.wc-forward {
+	position: absolute;
+} 
+.user-menu .cart-ddl .cart-dropdown div.cart_details {
+    width: 100%;
+    padding: 10px;
+} 
+.user-menu .cart-ddl .cart-dropdown  {
+    margin: 0;
+    padding: 0;
+} 
+.user-menu .cart-ddl .cart-dropdown a.checkout {
+    padding: 10px;
+    background: #DDD;
+}
+#home-slider .flex-direction-nav {
+	display: none;
 }

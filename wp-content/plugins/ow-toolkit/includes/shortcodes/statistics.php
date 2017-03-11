@@ -1,16 +1,22 @@
-<?php 
-function ulysses_statistics( $atts ){
-	global $ulysses_option;
+<?php 
+
+function ulysses_statistics( $atts )
+{
+
+	global $ulysses_option;
+
     extract(shortcode_atts(array(
 		'section_id' => ''
-    ), $atts));
+    ), $atts));
+
 	if( '' === $section_id ) :
 		$section_id = __('statistics','ulysses');
-	endif;
+	endif;
+
 	// START STATISTICS SECTION === -->
 	ob_start();
 	?>
-	<div class="statistics-section" id="<?php echo esc_attr( $section_id ); ?>">
+	<div class="statistics-section hidden-xs hidden-sm" id="<?php echo esc_attr( $section_id ); ?>">
 		<div class="container">
 			<div class="row">
 				<?php 
@@ -29,9 +35,17 @@ function ulysses_statistics( $atts ){
 								<h6><?php echo esc_attr( $opt_statistic['description'] ); ?></h6>
 							</div>
 						</div>
-					<?php 					$i++;
+					<?php 
+					$i++;
 					endforeach;
 				endif;
-				?>			</div>		</div>	</div>	<?php
-	return ob_get_clean();}
-add_shortcode('ulysses_statistics', 'ulysses_statistics');?>
+				?>
+			</div>
+		</div>
+	</div>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode('ulysses_statistics', 'ulysses_statistics');
+?>

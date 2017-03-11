@@ -152,7 +152,7 @@ function ulysses_enqueue_scripts() {
 	wp_enqueue_style( 'redux', THEME_OPTIONS . '/assets/css/redux.css', array(), null );
 
 	/* load fonts */
-	wp_enqueue_style( 'Playfair-Display', '//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic%7CMontserrat:400,700', array(), null, 'screen' );
+	wp_enqueue_style( 'Playfair-Display', '//fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic%7CMontserrat:400,700', array(), null, 'screen' );
 
 	wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/libraries/bootstrap/bootstrap.min.js', array( 'jquery' ),  null, true );
 

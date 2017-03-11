@@ -52,7 +52,7 @@ global $ulysses_option;
 					<div class="col-md-10 col-xs-9">
 						<ul class="user-menu">
 							<li class="user-acc">
-								<a href="<?php echo esc_url(get_permalink( $myaccount_page_id )); ?>"><i class="user-icon"></i></a>								
+								<!--<a href="<?php echo esc_url(get_permalink( $myaccount_page_id )); ?>"><i class="user-icon"></i></a>-->						
 								<ul class="dropdown-menu">
 									<?php
 									if ( is_user_logged_in() ) : ?>									
@@ -98,7 +98,7 @@ global $ulysses_option;
 									?>
 									<ul class="dropdown-menu cart-dropdown">
 										<li>									
-											<span class="cart_details"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count); ?><?php _e( ', Total of ', 'ulysses' ) ?><?php echo $woocommerce->cart->get_cart_total(); ?></span>
+											<div class="cart_details"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count); ?><?php _e( ', Total of ', 'ulysses' ) ?><?php echo $woocommerce->cart->get_cart_total(); ?></div>
 											<a class="checkout" title="View your shopping cart" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Cart' ) ) ); ?>">
 												<?php _e( 'Checkout ', 'ulysses' ) ?><span class="icon-chevron-right"></span>
 											</a>

@@ -464,10 +464,12 @@
 		overflow: visible;
 	}
 	.classes-section .slide-wrapper .white-box {
-		width: 55%;
+		width: 100%;
 	}
 	.classes-section .slide-wrapper .box-2 {
-		width: 45%;
+		width: 100%;
+		position: relative;
+		margin-top: 0;
 	}
 	.trainer.animated.wow.bounceInLeft.animated > img {
 		width: 100%;
@@ -816,7 +818,7 @@
 
 	/* footer */
 	footer {
-		padding-top: 120px;
+		padding-top: 300px;
 	}
 	footer .logo {
 		position: relative;
@@ -918,4 +920,22 @@
 		width: 50%;
 	}
 
+}
+
+@media only screen and (max-width: 968px) {
+	#testimonials {
+		display: none;
+	}
+	#certifiedtrainer.about-section .services-mark-1 .one-service {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.about-section .services-mark-1 .one-service img {
+		display: none;
+	}
+	.about-section .services-mark-1 .one-service {
+		padding-left: 0;
+	}
 }

@@ -1,7 +1,8 @@
 <?php
 /**
  * Author: Alin Marcu
- * Author URI: http://deconf.com
+ * Author URI: https://deconf.com
+ * Copyright 2013 Alin Marcu
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -25,8 +26,8 @@ if ( ! class_exists( 'GADWP_Frontend_Ajax' ) ) {
 			}
 
 			// Frontend Widget actions
-			add_action( 'wp_ajax_gadash_get_frontendwidget_data', array( $this, 'ajax_frontend_widget' ) );
-			add_action( 'wp_ajax_nopriv_gadash_get_frontendwidget_data', array( $this, 'ajax_frontend_widget' ) );
+			add_action( 'wp_ajax_ajax_frontwidget_report', array( $this, 'ajax_frontend_widget' ) );
+			add_action( 'wp_ajax_nopriv_ajax_frontwidget_report', array( $this, 'ajax_frontend_widget' ) );
 		}
 
 		/**
@@ -35,17 +36,16 @@ if ( ! class_exists( 'GADWP_Frontend_Ajax' ) ) {
 		 * @return string|int
 		 */
 		public function ajax_item_reports() {
-
-			if ( ! isset( $_REQUEST['gadwp_security_frontend_item_reports'] ) || ! wp_verify_nonce( $_REQUEST['gadwp_security_frontend_item_reports'], 'gadwp_frontend_item_reports' ) ) {
+			if ( ! isset( $_POST['gadwp_security_frontend_item_reports'] ) || ! wp_verify_nonce( $_POST['gadwp_security_frontend_item_reports'], 'gadwp_frontend_item_reports' ) ) {
 				wp_die( - 30 );
 			}
 
-			$from = $_REQUEST['from'];
-			$to = $_REQUEST['to'];
-			$query = $_REQUEST['query'];
-			$uri = $_REQUEST['filter'];
+			$from = $_POST['from'];
+			$to = $_POST['to'];
+			$query = $_POST['query'];
+			$uri = $_POST['filter'];
 
-			$query = $_REQUEST['query'];
+			$query = $_POST['query'];
 			if ( ob_get_length() ) {
 				ob_clean();
 			}
@@ -65,7 +65,7 @@ if ( ! class_exists( 'GADWP_Frontend_Ajax' ) ) {
 			if ( $this->gadwp->config->options['ga_dash_tableid_jail'] ) {
 				$projectId = $this->gadwp->config->options['ga_dash_tableid_jail'];
 			} else {
-				wp_die( - 25 );
+				wp_die( - 26 );
 			}
 
 			$profile_info = GADWP_Tools::get_selected_profile( $this->gadwp->config->options['ga_dash_profile_list'], $projectId );
@@ -76,7 +76,7 @@ if ( ! class_exists( 'GADWP_Frontend_Ajax' ) ) {
 				$this->gadwp->gapi_controller->timeshift = (int) current_time( 'timestamp' ) - time();
 			}
 
-			$uri = '/' . ltrim($uri,'/');
+			$uri = '/' . ltrim( $uri, '/' );
 
 			// allow URL correction before sending an API request
 			$filter = apply_filters( 'gadwp_frontenditem_uri', $uri );
@@ -99,9 +99,7 @@ if ( ! class_exists( 'GADWP_Frontend_Ajax' ) ) {
 			}
 
 			wp_send_json( $results );
-
 		}
-
 
 		/**
 		 * Ajax handler for getting analytics data for frontend Widget
@@ -109,11 +107,11 @@ if ( ! class_exists( 'GADWP_Frontend_Ajax' ) ) {
 		 * @return string|int
 		 */
 		public function ajax_frontend_widget() {
-			if ( ! isset( $_REQUEST['gadash_number'] ) || ! isset( $_REQUEST['gadash_optionname'] ) || ! is_active_widget( false, false, 'gadash_frontend_widget' ) ) {
+			if ( ! isset( $_POST['gadwp_number'] ) || ! isset( $_POST['gadwp_optionname'] ) || ! is_active_widget( false, false, 'gadwp-frontwidget-report' ) ) {
 				wp_die( - 30 );
 			}
-			$widget_index = $_REQUEST['gadash_number'];
-			$option_name = $_REQUEST['gadash_optionname'];
+			$widget_index = $_POST['gadwp_number'];
+			$option_name = $_POST['gadwp_optionname'];
 			$options = get_option( $option_name );
 			if ( isset( $options[$widget_index] ) ) {
 				$instance = $options[$widget_index];

@@ -225,7 +225,7 @@
 			$('#map_addresses').gMap(
 			{
 				address: mapAdd,
-				zoom: 5,
+				zoom: 12,
 				arrowStyle: 1,
 				controls: {
 					panControl: true,
@@ -301,6 +301,20 @@
 		if($("#trainers-slider").length)
 		{
 			$("#trainers-slider").owlCarousel(
+			{
+				// autoPlay: 1000, //Set AutoPlay to 3 seconds
+				items : 3,
+				itemsDesktop : [1199,3],
+				itemsDesktopSmall : [990,2],
+				itemsTablet: [767,1],
+				navigation:true
+			});
+		}
+
+		/* Trainers Section owlCarousel */
+		if($("#testimonial-slider").length)
+		{
+			$("#testimonial-slider").owlCarousel(
 			{
 				// autoPlay: 1000, //Set AutoPlay to 3 seconds
 				items : 3,

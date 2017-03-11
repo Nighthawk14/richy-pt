@@ -80,7 +80,7 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 					?>
 					<h5><?php _e( 'Collection: ', 'ulysses' ) ?><?php echo esc_html( $product_cat_name ); ?></h5><?php
 				endif; ?>
-				<?php if(!empty($price)): ?><h6><?php _e( '$: ', 'ulysses' ) ?><?php echo esc_html( $price ); ?></h6><?php endif; ?>
+				<?php if(!empty($price)): ?><h6><?php _e( '£: ', 'ulysses' ) ?><?php echo esc_html( $price ); ?></h6><?php endif; ?>
 			</div>
 		</div> 
 	</div>
